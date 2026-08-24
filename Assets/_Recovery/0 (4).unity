@@ -1423,12 +1423,6 @@ MonoBehaviour:
   - {fileID: 2406479455305992729, guid: c542ebbe221140b459351a050358efdd, type: 3}
   - {fileID: 7600831418102831166, guid: 4e347b44a6a448a46ad16c6cb16b6a83, type: 3}
   - {fileID: 2628979887552340979, guid: 68578e1905ae3954da97c42c22ac5109, type: 3}
-  starPrefab: {fileID: 4235332983292468259, guid: 9246f431df6aebd41bd64d62fbfae39c, type: 3}
-  starWorldRotationEuler: {x: 0, y: 270, z: 0}
-  starScale: {x: 5, y: 5, z: 5}
-  starVerticalOffset: 0.01
-  starPositionNudge: {x: -0.1, y: 0, z: -0.05}
-  logStarPlacementDebug: 1
 --- !u!1 &806296155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,61 +2570,6 @@ Transform:
   m_LocalPosition: {x: 37.80919, y: 9.78858, z: -12.4169}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1322812067
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1322812069}
-  - component: {fileID: 1322812068}
-  m_Layer: 0
-  m_Name: StarTwinkleController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1322812068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322812067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0631670ae1cbcb144bec27e37ea81ad7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StarTwinkleController
-  starMaterial: {fileID: 2100000, guid: 76f42e337c4798548b2fec86e29151fd, type: 2}
-  idleEmissionColor: {r: 0, g: 0.7553935, b: 1, a: 1}
-  idleIntensity: 0.2
-  twinkleEmissionColor: {r: 0.8867924, g: 0.711806, b: 0.4155096, a: 1}
-  twinkleMinIntensity: 0.1
-  twinkleMaxIntensity: 1.2
-  twinkleChangeIntervalMin: 0.05
-  twinkleChangeIntervalMax: 0.18
-  twinkleLerpSpeed: 15
-  defaultTwinkleDuration: 1.5
-  fadeToIdleSpeed: 3
---- !u!4 &1322812069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322812067}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.9, y: 10.5, z: -4.24}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4319,4 +4258,3 @@ SceneRoots:
   - {fileID: 2113180489}
   - {fileID: 225534910}
   - {fileID: 1553357741}
-  - {fileID: 1322812069}
