@@ -59,5 +59,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b2332b1fcd74144cb4d76e042aa26dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1014411620551506814}
   m_SourcePrefab: {fileID: 100100000, guid: 8b2332b1fcd74144cb4d76e042aa26dc, type: 3}
+--- !u!1 &4235332983292468259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b2332b1fcd74144cb4d76e042aa26dc, type: 3}
+  m_PrefabInstance: {fileID: 3893226884668432754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1014411620551506814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4235332983292468259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807ebd731c5061847b1f1054af88b506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarTwinkleUnit
+  idleEmissionColor: {r: 0.9496855, g: 0.5704085, b: 0.7868332, a: 1}
+  idleIntensity: 0.1
+  twinkleEmissionColor: {r: 0.9433962, g: 0.5050777, b: 0.2640322, a: 1}
+  twinkleMinIntensity: 0.1
+  twinkleMaxIntensity: 1.2
+  twinkleChangeIntervalMin: 0.05
+  twinkleChangeIntervalMax: 0.18
+  twinkleLerpSpeed: 15
+  fadeToIdleSpeed: 3

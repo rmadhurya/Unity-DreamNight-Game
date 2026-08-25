@@ -2589,6 +2589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1322812069}
   - component: {fileID: 1322812068}
+  - component: {fileID: 1322812070}
   m_Layer: 0
   m_Name: StarTwinkleController
   m_TagString: Untagged
@@ -2608,17 +2609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0631670ae1cbcb144bec27e37ea81ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StarTwinkleController
-  starMaterial: {fileID: 2100000, guid: 76f42e337c4798548b2fec86e29151fd, type: 2}
-  idleEmissionColor: {r: 0, g: 0.7553935, b: 1, a: 1}
-  idleIntensity: 0.2
-  twinkleEmissionColor: {r: 0.8867924, g: 0.711806, b: 0.4155096, a: 1}
-  twinkleMinIntensity: 0.1
-  twinkleMaxIntensity: 1.2
-  twinkleChangeIntervalMin: 0.05
-  twinkleChangeIntervalMax: 0.18
-  twinkleLerpSpeed: 15
-  defaultTwinkleDuration: 1.5
-  fadeToIdleSpeed: 3
+  twinkleDuration: 4
+  maxStaggerDelay: 1.5
 --- !u!4 &1322812069
 Transform:
   m_ObjectHideFlags: 0
@@ -2634,6 +2626,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1322812070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322812067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0631670ae1cbcb144bec27e37ea81ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StarTwinkleManager
+  twinkleDuration: 4
+  maxStaggerDelay: 1.5
 --- !u!1 &1499935765
 GameObject:
   m_ObjectHideFlags: 0
