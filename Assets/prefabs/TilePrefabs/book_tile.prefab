@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TileFlipper
   flipDuration: 0.5
   liftHeight: 0.5
-  glowIntensity: 1
+  glowIntensity: 0.5
   pulseDuration: 0.5
 --- !u!1001 &3054699095065718187
 PrefabInstance:
